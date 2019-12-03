@@ -47,3 +47,10 @@ for intersect in intersections:
 man_dists.sort()
 print(man_dists[0])
 
+steps = []
+for intersection in intersections:
+    step = wire1_coordinates.index(intersection) + wire2_coordinates.index(intersection)
+    steps.append(step)
+
+steps.sort()
+print(steps[0])
