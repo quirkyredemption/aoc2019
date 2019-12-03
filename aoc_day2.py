@@ -19,7 +19,7 @@ for idx, val in enumerate(opcodes):
 
 print(opcodes[0])    
 
-AoC December 2nd Part 2
+# AoC December 2nd Part 2
 file_path = "INSERT PATH"
 
 opcodes = open(file_path, "r").read().split(",")
