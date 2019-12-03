@@ -73,8 +73,8 @@ def to_condinates(direction, pre_coord):
 
     return coords
 
-wire1_path = r"C:\Users\au256765\Desktop\wire1.txt"
-wire2_path = r"C:\Users\au256765\Desktop\wire2.txt"
+wire1_path = "insert path"
+wire2_path = "insert path"
 
 wire1 = open(wire1_path, "r").read().split(",")
 wire2 = open(wire2_path, "r").read().split(",")
