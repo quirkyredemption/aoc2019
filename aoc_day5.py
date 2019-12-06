@@ -1,5 +1,5 @@
 # AoC December 2nd Part 1
-file_path = r"C:\Users\au256765\Desktop\input.txt"
+file_path = r"PATH"
 
 opcodes = open(file_path, "r").read().split(",")
 opcodes = list(map(int, opcodes))
