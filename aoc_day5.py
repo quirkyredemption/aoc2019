@@ -4,7 +4,6 @@ file_path = r"PATH"
 opcodes = open(file_path, "r").read().split(",")
 opcodes = list(map(int, opcodes))
 
-
 intput = 5
 
 def parameter_mode(opcodes, instruction, idx):
